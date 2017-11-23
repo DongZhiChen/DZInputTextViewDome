@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = 'DZInputTextView'
-s.version      = '1.0.0'
+s.version      = '1.0.3'
 s.summary      = 'text input view'
 s.homepage     = 'https://github.com/DongZhiChen/DZInputTextViewDome'
 s.license      = 'MIT'
