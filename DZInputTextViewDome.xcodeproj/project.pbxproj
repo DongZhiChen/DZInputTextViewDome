@@ -16,7 +16,7 @@
 		883C3AC71FC52A1F007DB95D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 883C3AC51FC52A1F007DB95D /* LaunchScreen.storyboard */; };
 		883C3AD21FC52A1F007DB95D /* DZInputTextViewDomeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 883C3AD11FC52A1F007DB95D /* DZInputTextViewDomeTests.m */; };
 		883C3ADD1FC52A1F007DB95D /* DZInputTextViewDomeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 883C3ADC1FC52A1F007DB95D /* DZInputTextViewDomeUITests.m */; };
-		883C3AED1FC52A79007DB95D /* DZInputTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 883C3AEC1FC52A79007DB95D /* DZInputTextView.m */; };
+		88B760901FC6A7FD00740C7B /* DZInputTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B7608F1FC6A7FD00740C7B /* DZInputTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,8 +55,8 @@
 		883C3AD81FC52A1F007DB95D /* DZInputTextViewDomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DZInputTextViewDomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		883C3ADC1FC52A1F007DB95D /* DZInputTextViewDomeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DZInputTextViewDomeUITests.m; sourceTree = "<group>"; };
 		883C3ADE1FC52A1F007DB95D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		883C3AEB1FC52A79007DB95D /* DZInputTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZInputTextView.h; sourceTree = "<group>"; };
-		883C3AEC1FC52A79007DB95D /* DZInputTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZInputTextView.m; sourceTree = "<group>"; };
+		88B7608E1FC6A7FD00740C7B /* DZInputTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZInputTextView.h; sourceTree = "<group>"; };
+		88B7608F1FC6A7FD00740C7B /* DZInputTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZInputTextView.m; sourceTree = "<group>"; };
 		89D1C753201B684072F8E02E /* Pods-DZInputTextViewDome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DZInputTextViewDome.release.xcconfig"; path = "Pods/Target Support Files/Pods-DZInputTextViewDome/Pods-DZInputTextViewDome.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -128,7 +128,7 @@
 		883C3AB61FC52A1E007DB95D /* DZInputTextViewDome */ = {
 			isa = PBXGroup;
 			children = (
-				883C3AEA1FC52A79007DB95D /* DZInputTextView */,
+				88B7608D1FC6A7FD00740C7B /* DZInputTextView */,
 				883C3ABA1FC52A1E007DB95D /* AppDelegate.h */,
 				883C3ABB1FC52A1E007DB95D /* AppDelegate.m */,
 				883C3ABD1FC52A1E007DB95D /* ViewController.h */,
@@ -168,14 +168,14 @@
 			path = DZInputTextViewDomeUITests;
 			sourceTree = "<group>";
 		};
-		883C3AEA1FC52A79007DB95D /* DZInputTextView */ = {
+		88B7608D1FC6A7FD00740C7B /* DZInputTextView */ = {
 			isa = PBXGroup;
 			children = (
-				883C3AEB1FC52A79007DB95D /* DZInputTextView.h */,
-				883C3AEC1FC52A79007DB95D /* DZInputTextView.m */,
+				88B7608E1FC6A7FD00740C7B /* DZInputTextView.h */,
+				88B7608F1FC6A7FD00740C7B /* DZInputTextView.m */,
 			);
 			path = DZInputTextView;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -366,7 +366,7 @@
 			files = (
 				883C3ABF1FC52A1E007DB95D /* ViewController.m in Sources */,
 				883C3ABC1FC52A1E007DB95D /* AppDelegate.m in Sources */,
-				883C3AED1FC52A79007DB95D /* DZInputTextView.m in Sources */,
+				88B760901FC6A7FD00740C7B /* DZInputTextView.m in Sources */,
 				883C3AB91FC52A1E007DB95D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -607,6 +607,7 @@
 				883C3AE31FC52A1F007DB95D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		883C3AE41FC52A1F007DB95D /* Build configuration list for PBXNativeTarget "DZInputTextViewDomeTests" */ = {
 			isa = XCConfigurationList;
@@ -615,6 +616,7 @@
 				883C3AE61FC52A1F007DB95D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		883C3AE71FC52A1F007DB95D /* Build configuration list for PBXNativeTarget "DZInputTextViewDomeUITests" */ = {
 			isa = XCConfigurationList;
@@ -623,6 +625,7 @@
 				883C3AE91FC52A1F007DB95D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
