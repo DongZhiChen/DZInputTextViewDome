@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
 s.name         = 'DZInputTextView'
-s.version      = '1.0.1'
+s.version      = '1.0.2'
 s.summary      = 'text input view'
 s.homepage     = 'https://github.com/DongZhiChen/DZInputTextViewDome'
-s.license      ={ :type => "MIT", :file => "LICENSE" }
+s.license      ='MIT'
 s.authors      = {'ChenDongZhi' => '644495218@qq.com'}
 s.platform     = :ios, '8.0'
 s.source       = {:git => 'https://github.com/DongZhiChen/DZInputTextViewDome.git', :tag => s.version}
